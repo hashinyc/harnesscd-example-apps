@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hashinyc_harnesscd_example_apps_1746734434440-push-trigger-input-set
+  identifier: Build_hashinyc_harnesscd_example_apps_1746734434440pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_hashinyc_harnesscd_example_apps_1746734434440
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
